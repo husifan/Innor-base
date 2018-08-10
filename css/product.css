@@ -1,0 +1,132 @@
+.pro-main{
+    background: #f6f6f6;
+    padding-top: 46px;
+}
+.main-top{
+    width: 1180px;
+    height: 465px;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+.main-top .top-left{
+    width: 590px;
+    float: left;
+    padding: 20px 0;
+    height: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-top .top-left img{
+    max-width: 500px;
+    max-height: 400px;
+}
+.main-top .top-right{
+    float: right;
+    width: 590px;
+}
+.main-top .top-right div:nth-child(1){
+    margin-top: 20px;
+    color: #2b2b2b;
+    font-size: 26px;
+    font-weight: bold;
+}
+.main-top .top-right div:nth-child(2){
+    width: 380px;
+    margin-top: 5px;
+}
+.main-top .top-right div:nth-child(2) p{
+    color: #878787;
+    line-height: 20px;
+}
+.main-top .top-right div:nth-child(3){
+    color: #db4437;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.main-top .top-right div:nth-child(3) span{
+    font-size: 16px;
+    font-weight: normal;
+}
+.main-top .top-right div:nth-child(4){
+    height: 72px;
+    line-height: 72px;
+    font-size: 12px;
+    color: #878787;
+}
+.main-top .top-right div:nth-child(5){
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    background: #409f73;
+    float: left;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.main-top .top-right div:nth-child(5) a{
+    padding-left: 30px;
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-image: url(../img/shop-details/QQ.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+.main-bottom{
+    background: #fff;
+}
+.main-bottom .bot-nav{
+    height: 55px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.main-bottom .bot-nav ul{
+    width: 1180px;
+    margin: 0 auto;
+}
+.main-bottom .bot-nav ul li{
+    width: 107px;
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+.main-bottom .bot-nav ul li a{
+    display: block;
+    width: 107px;
+    height: 55px;
+    color: #575757;
+    text-align: center;
+    line-height: 50px;
+}
+.active{
+    background: #409f73;
+    color: #fff;
+    font-weight: bolder;
+}
+.active a{
+    color: #fff;
+    font-weight: bolder;
+}
+.main-bottom .bot-main{
+    padding-top: 34px;
+    width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.main-bottom .bot-main>div{
+    padding-top: 38px;
+    padding-left: 50px;
+}
+.main-bottom .bot-main>div{
+    display: none;
+}
+.main-bottom .bot-main>div:first-child{
+    display: block;
+}
+.main-bottom .bot-main>div:nth-child(2)>span{
+    color: #00925f;
+    font-size: 20px;
+    padding-bottom: 30px;
+}

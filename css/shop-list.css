@@ -1,0 +1,90 @@
+.main .banner-main{
+    width: 1200px;
+    height:565px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.shop-list{
+    margin-top:30px;
+}
+.shop-list .shop-list-title,.about-us .shop-list-title{
+    height: 35px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.shop-list .shop-list-title>span:nth-child(1),.about-us .shop-list-title>span:nth-child(1)
+{
+    font-size: 20px;
+    color: #333333;
+}
+.shop-list .shop-list-title>span:nth-child(2),.about-us .shop-list-title>span:nth-child(2)
+{
+    font-size: 17px;
+    color: #B1AAAA;
+}
+.shop-list .shop-list-main{
+    padding: 35px 0 60px;
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.shop-list .shop-list-main ul{
+    margin-top:-10px;
+    float: left;                      /*--------------可能不行*/
+}
+.shop-list .shop-list-main .shop-list-li{
+    width: 320px;
+    float: left;
+    padding-right: 18px;
+    padding-left: 18px;
+    position: relative;
+    margin-top: 10px;
+    border-bottom:2px solid #F2F2F2;
+}
+.shop-list .shop-list-main .shop-list-li:hover{
+    border-bottom:2px solid #00925F;
+}
+.shop-list .shop-list-main .shop-list-li a{
+    position: relative;
+    display: block;
+}
+.shop-list .shop-list-main .shop-list-li img{
+    width: 320px;
+    height:213px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.shop-list .shop-list-main .shop-list-li a .list-name{
+    /* padding: 20px 0; */
+    text-align: center;
+}
+.shop-list .shop-list-main .shop-list-li a .list-name>div:nth-child(1){
+    font-size: 22px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+.shop-list .shop-list-main .shop-list-li a .list-name>div:nth-child(2){
+    font-size: 14px;
+    line-height: 26px;
+    color: #b4b4b4;
+}
+.shop-list .shop-list-main .shop-list-li a .list-name>div:nth-child(3)>span:nth-child(1){
+    font-size: 15px;
+    line-height: 26px;
+    color: #00925F;
+}
+.shop-list .pages{
+    border: 1px solid #DDDDDD;
+    color:#5AB290;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.shop-list .pages:hover{
+    border: 2px solid #5AB290;
+    width: 23px;
+    height: 23px;
+}

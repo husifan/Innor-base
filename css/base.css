@@ -1,0 +1,56 @@
+body {
+	color: #000;
+	font: 15px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #F2F2F2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+    /* background-image:linear-gradient(to right,#FFD6A0,#00925F,#C7FFFF); */
+    color:#00925F;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.lf {
+	float: left;
+}
+
+.rt {
+	float: right;
+}
+
+div.main {
+	width: 1200px;
+	margin: 0 auto;
+}
